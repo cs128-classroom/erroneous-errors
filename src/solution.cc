@@ -96,7 +96,7 @@ std::vector<Student> FilterStudents(const std::vector<Student>& students,
 double GetAverage(const std::vector<Student>& students, unsigned int quiz_no) {
   if (students.empty()) throw std::invalid_argument("No students");
   if (quiz_no > students.size() || quiz_no == 0)
-    throw std::invalid_argument("Not a valid quiz number");
+    throw std::invalid_argument("Not a valid quiz number";
   double count = 0.0;
   for (auto const& student : students) {
     count += student.quiz_scores[quiz_no];
@@ -258,3 +258,4 @@ void WriteGradeReport(const std::string& file_name, Student subject) {
 
   output << "Final Grade: " << CalculateGrade(subject.quiz_scores) << '\n';
 }
+
