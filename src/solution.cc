@@ -1,3 +1,5 @@
+#include "solution.hpp"
+
 #include <algorithm>
 #include <cstddef>
 #include <fstream>
@@ -5,7 +7,6 @@
 #include <string>
 #include <vector>
 
-#include "solution.hpp"
 
 const int kNumQuizzes = 3;
 
@@ -13,7 +14,7 @@ const int kNumQuizzes = 3;
 // For input file format examples, look at ./testing_files
 // This has 2 bugs
 std::vector<Student> ReadCSVFile(const std::string& file_name) {
-  unsigned int num_expected_students = NumEntries(file_name);
+  int num_expected_students = NumEntries(file_name);
 
   std::ifstream ifs{file_name};
   if (ifs.is_open()) {
@@ -24,7 +25,7 @@ std::vector<Student> ReadCSVFile(const std::string& file_name) {
   std::getline(ifs, file_headers);
 
   std::vector<Student> students;
-  
+
   for (unsigned int i = 0; i < num_expected_students; ++i) {
     Student student = ReadStudentRecFromStream(ifs);
     students.push_back(student);
@@ -147,8 +148,8 @@ std::vector<double> FindOutliers(const std::vector<Student>& students,
   const std::size_t kMid = kNumberScores / 2;
   const double kQ1 = Median(scores, 0, kMid);
   const double kQ3 = (kNumberScores % 2 == 0)
-                        ? Median(scores, kMid, kNumberScores)
-                        : Median(scores, kMid + 1, kNumberScores);
+                         ? Median(scores, kMid, kNumberScores)
+                         : Median(scores, kMid + 1, kNumberScores);
   const double kIqr = kQ3 - kQ1;
   const double kLowerBound = kQ1 - (1.5 * kIqr);
   const double kUpperBound = kQ3 + (1.5 * kIqr);
