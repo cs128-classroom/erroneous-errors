@@ -1,9 +1,0 @@
-Student: Kanye West
-UIN: 667
-GPA: 2.5
-CS Major: No
-Quiz Scores:
-Quiz 1: 12.8029
-Quiz 2: 42.7319
-Quiz 3: 78.4129
-Final Grade: 55.5842

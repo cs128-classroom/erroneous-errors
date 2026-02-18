@@ -1,9 +1,0 @@
-Student: Elon Musk
-UIN: 1234123
-GPA: 0.01
-CS Major: Yes
-Quiz Scores:
-Quiz 1: 99.2746
-Quiz 2: 2.31877
-Quiz 3: 96.7413
-Final Grade: 81.8486

@@ -1,9 +1,0 @@
-Student: Tom Cruise
-UIN: 140923
-GPA: 0.2
-CS Major: No
-Quiz Scores:
-Quiz 1: 44.2876
-Quiz 2: 81.005
-Quiz 3: 15.1482
-Final Grade: 52.9332
