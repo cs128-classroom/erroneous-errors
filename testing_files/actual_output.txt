@@ -1,0 +1,12 @@
+Group: Overall
+Average Grade: 57.5967
+Outlier Count: 1
+
+Group: CS Majors
+Average Grade: 61.9362
+Outlier Count: 0
+
+Group: Non-CS Majors
+Average Grade: 53.2572
+Outlier Count: 0
+

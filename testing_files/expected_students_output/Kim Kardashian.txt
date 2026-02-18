@@ -1,0 +1,9 @@
+Student: Kim Kardashian
+UIN: 99999
+GPA: 4
+CS Major: Yes
+Quiz Scores:
+Quiz 1: 43.9184
+Quiz 2: 79.642
+Quiz 3: 13.5019
+Final Grade: 51.6414

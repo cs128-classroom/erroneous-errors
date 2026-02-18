@@ -1,0 +1,9 @@
+Student: Taylor Swift
+UIN: 1234
+GPA: 3.11
+CS Major: Yes
+Quiz Scores:
+Quiz 1: 45.1038
+Quiz 2: 80.1135
+Quiz 3: 14.2336
+Final Grade: 52.3186

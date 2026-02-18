@@ -1,0 +1,9 @@
+Student: Cristiano Ronaldo
+UIN: 7
+GPA: 0.7
+CS Major: No
+Quiz Scores:
+Quiz 1: 46.0091
+Quiz 2: 77.9027
+Quiz 3: 13.9038
+Final Grade: 51.2541
